@@ -131,7 +131,7 @@ public class Sudoku {
         }
 
         int gridNum = getGrid(row, col);
-        int cell = getCell(row, col);
+        // int cell = getCell(row, col);
         List<Position> gridLocations = new ArrayList<>();
         // check variables in the same 3x3 grid
         for (int x = 0; x < NUMBER_OF_COLUMNS; x++) {
@@ -169,7 +169,7 @@ public class Sudoku {
         }
 
         int gridNum = getGrid(row, col);
-        int cell = getCell(row, col);
+        // int cell = getCell(row, col);
         List<Position> gridLocations = new ArrayList<>();
         for (int x = 0; x < NUMBER_OF_COLUMNS; x++) {
             int gridRow = getRow(gridNum, x);

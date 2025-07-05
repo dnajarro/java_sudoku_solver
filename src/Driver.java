@@ -1,10 +1,10 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Driver {
     public static void main(String[] args) {
+        System.out.println(args[0]);
         if (args.length != 1) System.out.println("USAGE: java Driver input/puzzles.txt");
         else {
             String startingSearch = String.format("Searching for solutions to puzzles from file: %s", args[0]);
